@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Hotel from './Hotel/Hotel';
-import style from './Hotel.module.css';
+import style from './Hotels.module.css';
 
 class Hotels extends Component{
     render() {

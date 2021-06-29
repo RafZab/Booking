@@ -10,7 +10,7 @@ function SearchBar() {
                 className="form-control"
                 type="text"
                 placeholder="Szukaj..." />
-            <button className="btn btn-primary">Szukaj</button>
+            <button className="btn btn-secondary ml-1">Szukaj</button>
         </div>
     );
 }
