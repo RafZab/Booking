@@ -1,17 +1,17 @@
 import React ,{ useState } from 'react';
 
-function SearchBar() {
+function SearchBar(props) {
     const [term, setTerm] = useState('')
 
     const search = () => {
-        console.log('szukaj!', term)
+        props.onSearch(term)
     }
 
     return (
         <div className="d-flex">
             <input
                 value={term}
-                onKeyDown={e => e.key === 'Enter' && search()}
+                onKeyDown={e => e.key === 'Enter' && props.onSearch(term)}
                 onChange={e => setTerm(e.target.value)}
                 className="form-control"
                 type="text"
