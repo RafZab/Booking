@@ -1,4 +1,4 @@
-export default function () {
+export default function LoadingIcon() {
     return (
         <>
             <div className="d-flex justify-content-center">

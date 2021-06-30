@@ -1,6 +1,7 @@
-import React from 'react';
 import SearchBar from './SearchBar/Searchbar';
 import styles from './Header.module.css';
+
+
 
 function Header(props) {
     return (
@@ -9,5 +10,7 @@ function Header(props) {
         </header>
     );
 }
+
+
 
 export default Header;

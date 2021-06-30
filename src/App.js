@@ -3,7 +3,6 @@ import Header from './components/Header/Header';
 import Menu from './components/Menu/Menu';
 import Hotels from './components/Hotels/Hotels';
 import LoadingIcon from './components/UI/LoadingIcon/LoadingIcon';
-import { render } from '@testing-library/react';
 import { Component } from 'react';
 
 class App extends Component {
@@ -12,7 +11,7 @@ class App extends Component {
         id: 1,
         name: 'Pod akacjami',
         city: 'Warszawa',
-        rating: '8.3',
+        rating: 8.3,
         description: 'opis jakis jeszcze nie wiem jaki ale wkrótce się dowiem',
         image: ''
       },
@@ -20,7 +19,7 @@ class App extends Component {
         id: 2,
         name: 'Dębowy',
         city: 'Lublin',
-        rating: '8.8',
+        rating: 8.8,
         description: 'opis jakis jeszcze nie wiem jaki ale wkrótce się dowiem',
         image: ''
       }
